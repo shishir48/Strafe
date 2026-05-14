@@ -1,0 +1,15 @@
+{
+  "name": "@br/client",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "esbuild src/index.ts --bundle --outfile=dist/bundle.js --watch --sourcemap",
+    "build": "esbuild src/index.ts --bundle --outfile=dist/bundle.js --minify"
+  },
+  "dependencies": {
+    "@br/shared": "*"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.4.0"
+  }
+}

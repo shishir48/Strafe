@@ -1,0 +1,17 @@
+{
+  "name": "@br/server",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@br/shared": "*",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.51.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.4.0"
+  }
+}

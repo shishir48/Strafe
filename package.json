@@ -1,0 +1,13 @@
+{
+  "name": "strafe",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present"
+  }
+}
